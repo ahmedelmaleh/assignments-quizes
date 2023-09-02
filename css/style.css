@@ -32,13 +32,13 @@ body{
     z-index: 100;
 }
 
-/* .cursor-pointer{
+.cursor-pointer{
     cursor: pointer;
 }
 
 .alert{
     width: fit-content;
-} */
+}
 
 .loading{
     display: flex;
