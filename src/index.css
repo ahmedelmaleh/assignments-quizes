@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --first-color: #1abc9c;
+  --second-color: #2c3e50;
+}
+nav{
+  background-color: var(--second-color);
+  height: 100px;
+}
+img{
+  width: 250px;
+}
+.home{
+  background-color: var(--first-color);
+}
+.icon{
+  border: 1px white solid;
+  border-radius: 50%;
+  padding: 10px;
+}
+.footer-up{
+  background-color: var(--second-color);
+}
+.footer-lower{
+  background-color: #1a252f;
+}
+.about{
+  background-color: var(--first-color);
+  height:630px;
+}
+.layer{
+  background-color: #1abc9ce6;
+    opacity: 0;
+    transition: all 0.5s ;
+}
+.box:hover .layer{
+  opacity: 1;
+}
+.contact h2{
+  color: rgb(44, 62, 80);
+}
+.portofolio h2{
+  color: rgb(44, 62, 80);
+}
+.contact{
+  height: 600px;
+}
